@@ -1,22 +1,22 @@
-import { initializeApp } from 'firebase/app';
 import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: 'AIzaSyCFyjxvMohkpE0n98EeIGUguN7_zjl7DIY',
-	authDomain: 'barberino-9889a.firebaseapp.com',
-	databaseURL:
-		'https://barberino-9889a-default-rtdb.europe-west1.firebasedatabase.app',
-	projectId: 'barberino-9889a',
-	storageBucket: 'barberino-9889a.appspot.com',
-	messagingSenderId: '609892777197',
-	appId: '1:609892777197:web:645aef9f6b1faa777f60e4',
-	measurementId: 'G-0Y3HNCG3CF',
+	apiKey: 'AIzaSyBmy6nssvvA5yTdfauUn4CoOkqtaCJqnrA',
+	authDomain: 'barbergram-b4770.firebaseapp.com',
+	projectId: 'barbergram-b4770',
+	storageBucket: 'barbergram-b4770.appspot.com',
+	messagingSenderId: '38479069387',
+	appId: '1:38479069387:web:2ddf83bd08931562f3db4e',
 };
 
 // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
+
+//
+
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const projectStorage = firebase.storage();
